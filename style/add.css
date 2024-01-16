@@ -134,3 +134,37 @@ nav li a {
     color: #FFF;
     background-color: #FF5400;
 }
+
+@media screen and (max-width: 600px) {
+  header{
+    max-width: 360px;
+    margin: 0 20px;
+  }
+    .title{
+        width: 350px;
+        height: 1000px;
+        text-align: center;
+        padding-top: 100px;
+       
+   }
+   nav{
+    display: grid;
+    grid-template-columns: 1, 1fr;
+   }
+
+   nav ul{
+    display: grid;
+    grid-template-columns: 2, 1fr;
+    position: relative;
+    right: 30px;
+    
+   }
+   .btn{
+    height: 60px;
+    width: 100px;
+    position: relative;
+    right: 100px;
+    bottom: 100px;
+   }
+    
+}
