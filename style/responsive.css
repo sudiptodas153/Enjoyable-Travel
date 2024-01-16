@@ -1,0 +1,310 @@
+@media screen and (max-width: 600px) {
+    header {
+        width: 400px;
+        margin-right: 0px;
+
+    }
+
+    nav {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 15px;
+        margin-right: 10px;
+        position: relative;
+        right: 30px;
+    }
+
+    .enjoy {
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .travel {
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    nav li a {
+        font-size: 0.8rem;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .title {
+
+        background-image: url(../image/Group\ 13\ \(1\)\ \(1\).png);
+        background-repeat: no-repeat;
+        border-radius: 15px;
+        width: 300px;
+        height: 500px;
+        text-align: center;
+        padding-top: 30px;
+
+    }
+
+    .information {
+
+        font-size: 2.2rem;
+        font-style: normal;
+        font-weight: 800;
+        margin-top: 50px;
+        position: relative;
+        top: 10px;
+    }
+
+    .description {
+        font-size: 0.7rem;
+        font-style: normal;
+        font-weight: 400;
+        margin-top: 80px;
+        position: relative;
+        bottom: 50px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .btn {
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        height: 0px;
+        width: 200px;
+        gap: 10px;
+        position: relative;
+        /* right: 180px; */
+    }
+
+    .btn button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        width: 100px;
+        border-radius: 5px;
+        border: none;
+        font-size: 0.8rem;
+        font-style: normal;
+        font-weight: 400;
+        position: relative;
+        right: 180px;
+        bottom: 50px;
+    }
+
+    .containar-nd {
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        width: 400px;
+
+    }
+
+    .padding {
+        gap: 10px;
+        padding: 0 60px;
+        position: relative;
+        right: 50px;
+
+    }
+
+    .tour {
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 850;
+    }
+
+    .simple {
+
+        font-size: 0.7rem;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .class {
+        font-size: 0.7rem;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .extra-pro {
+        color: #FFF;
+        background-color: #FF5400;
+        width: 100px;
+        height: 25px;
+        border-radius: 3px;
+        border: none;
+    }
+
+    .img-src {
+        width: 50px;
+
+    }
+
+    .added {
+        width: 400px;
+
+    }
+
+    .copy {
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 800;
+        position: relative;
+        right: 50px;
+    }
+
+    .paste {
+        padding: 30px 100px;
+        position: relative;
+        right: 40px;
+        font-size: 0.8rem;
+        font-style: normal;
+        font-weight: 400;
+    }
+    .first {
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    .first-layout {
+        width: 300px;
+        height: 300px;
+        border-radius: 4px;
+    }
+    .secound-layout{
+        width: 300px;
+        height: 300px;
+    }
+    .pic {
+        width: 300px;
+        height: 286px;
+    }
+    
+    .hlw-pic {
+        width: 300px;
+        height: 286px;
+        
+    }
+    
+    .hlw {
+        width: 300px;
+        height: 286px;
+        position: relative;
+        right: 30px;
+        
+    }
+    
+    .bangladesh {
+        width: 300px;
+        height: 300px;
+        position: relative;
+       
+    }
+    .ad {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        right: 20px;
+    }
+    .hlw-pic {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        right: 15px;
+    }
+    .thired {
+       display: grid;
+       grid-template-rows: repeat(1,1fr);
+       gap: 10px;
+       margin-top: 50px;
+    }
+    .secound {
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        margin-top: 20px;
+        position: relative;
+        /* right: 10/px; */
+    }
+    .first{
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+    }
+    .find {
+        width: 400px;
+    }
+    .us {
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 800;
+        position: relative;
+        right: 50px;
+    }
+    .sudipto {
+        
+        font-size: 0.8rem;
+        font-style: normal;
+        font-weight: 400;
+        padding: 0 100px;
+        position: relative;
+        right: 50px;
+    }
+    .hotel-title {
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+        border: 2px solid rgba(251, 181, 99, 0.20);
+        background: rgba(251, 181, 99, 0.05);
+        /* padding: 1/0px; */
+    }
+    .location-title {
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+        border: 2px solid rgba(41, 206, 246, 0.20);
+        background: rgba(41, 206, 246, 0.05);
+    }
+    .discount-title {
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+        border: 2px solid rgba(233, 68, 68, 0.20);
+        background: rgba(233, 68, 68, 0.05);
+        position: relative;
+        right: 50px;
+    }
+    .last-class {
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+    }
+    .border {
+        width: 300px;
+    }
+    .name {
+        height: 30px;
+        width: 150px;
+        border-radius: 8px;
+        /* background: rgba(19, 19, 24, 0.05);/ */
+    
+    
+        /* padding-left: 50px; */
+    }
+    
+    .email {
+        height: 30px;
+        width: 150px;
+        border-radius: 8px;
+    }
+    
+    .submit {
+        height: 30px;
+        width: 150px;
+        border-radius: 8px;
+        color: #fff;
+        background-color: #FF5400;
+    
+    }
+}
